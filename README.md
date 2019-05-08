@@ -1,4 +1,4 @@
-# Instruction of Cancer_Network_control package
+# Instruction of Cancer_Network_Control package
 %Remainder: Please install gurobi before running our code (http://www.gurobi.com/)
 %Remainder: Please install gurobi before running our code (http://www.gurobi.com/)
 %Remainder: Please install gurobi before running our code (http://www.gurobi.com/)
