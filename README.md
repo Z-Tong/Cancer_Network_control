@@ -4,7 +4,7 @@
 %Remainder: Please install gurobi before running our code (http://www.gurobi.com/)
 This package includes Matlab scripts and several datasets for demo of cancer_network_control approaches:
 (a)	main_cancer_network_control.m is a Matlab function for the routine of experimental analysis.main_cancer_network_control.m is the   
-    main script to call cancer_network_control.
+    main script to call function of cancer_network_control.m.
 (b)  cancer_network_control.m is the main script to call cancer_network_control. The input datasets of cancer_network_control.minclude:
     (1) expression_tumor_fileName.txt: the gene tumor expression data.
     (2) expression_normal_fileName.txt: the gene normal expression data.
@@ -17,7 +17,7 @@ This package includes Matlab scripts and several datasets for demo of cancer_net
 The output datasets include:
 The sample-specific driver profiles (matrix) by using MMS[4],MDS[5],DFVS[6],NCUA[2]; For “MMS or MDS,DFVS,NCUA”, the column is the samples and the rows is the genes. The value “1” denoted that the gene is driver genes; 
 
-(c) As a demo, users can directly run main_Benchmark_control.m in Matlab. We choose the BRCA cancer data as a test case in our demo. This package has been tested in different computer environments as: Window 7 or above; Matlab 2014 or above.
+(c) As a demo, users can directly run main_Benchmark_control.m in Matlab. We choose the BRCA cancer data obtained from TCGA as a test case in our demo. The users can directly run our code to find personalized driver genes in other cancer data sets by using our provided paired cancer data here. This package has been tested in different computer environments as: Window 7 or above; Matlab 2014 or above.
 (d) When users analyzed yourself new data, please:
    (1) Prepare input datasets as introduced in (b).
    (2) Clear the previous results.
