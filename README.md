@@ -17,7 +17,7 @@ This package includes Matlab scripts and several datasets for demo of cancer_net
 The output datasets include:
 The sample-specific driver profiles (matrix) by using MMS[4],MDS[5],DFVS[6],NCUA[2]; For “MMS or MDS,DFVS,NCUA”, the column is the samples and the rows is the genes. The value “1” denoted that the gene is driver genes; 
 
-(c) As a demo, users can directly run main_Benchmark_control.m in Matlab. We choose a quick test example whcih contains normal and tumor sample data of 5 patients obtained from BRCA in TCGA. The users can directly run our code to find personalized driver genes in other cancer data sets. This package has been tested in different computer environments as: Window 7 or above; Matlab 2014 or above.
+(c) As a demo, users can directly run main_Benchmark_control.m in Matlab. We choose a quick test example which contains normal and tumor sample data of 5 patients obtained from BRCA in TCGA. The users can directly run our code to find personalized driver genes in other cancer data sets. This package has been tested in different computer environments as: Window 7 or above; Matlab 2014 or above.
 (d) When users analyzed yourself new data, please:
    (1) Prepare input datasets as introduced in (b).
    (2) Clear the previous results.
